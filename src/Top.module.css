@@ -1,0 +1,195 @@
+@media (min-width: 320px) {
+  .header-main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+  }
+  .scene {
+    background: url(./images/Scene.svg) 0%, left / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .nav-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    background: url(./images/logo.svg) no-repeat;
+    width: 212px;
+    height: 50px;
+    margin: 30px 0 30px 30px;
+  }
+  .menu-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .menu-main li {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-main li a {
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .text-main {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    line-height: 100%;
+    width: 300px;
+    /* or 100px */
+    margin-left: 20px;
+    color: #ffffff;
+  }
+  .get-started {
+    width: 120px;
+    height: 30px;
+    text-transform: uppercase;
+    border: 0;
+    font-family: Rubik;
+    font-size: 10px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    letter-spacing: 0.05em;
+    background: #ee4d47;
+    border-radius: 5px;
+    color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+  }
+  .get-started::before {
+    content: '';
+    background: url(./images/Union.svg) right / cover no-repeat;
+    width: 15px;
+    height: 6.35px;
+    position: absolute;
+    right: 10px;
+  }
+  .model {
+    background: url(./images/mobel.svg) bottom / contain no-repeat;
+    width: 320px;
+    height: 395px;
+    margin-top: auto;
+    transform: translateX(-200px);
+    transition: transform 0.5s ease-in-out 0.5s;
+  }
+}
+
+@media (min-width: 640px) {
+  .scene {
+    background-position: left;
+  }
+  .nav-main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .logo {
+    margin: 0;
+    flex: 1 1;
+  }
+  .menu-main {
+    flex: 2 1;
+    background-color: transparent;
+  }
+  .menu-main li {
+    height: 60px;
+    width: auto;
+  }
+  .menu-main li a {
+    font-size: 13px;
+  }
+  .text-main {
+    width: 400px;
+    height: 300px;
+    font-size: 50px;
+    margin: 70px 0 0 50px;
+  }
+  .get-started {
+    width: 220px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    margin-left: 50px;
+  }
+  .get-started::before {
+    width: 29.5px;
+    height: 12.35px;
+    right: 25px;
+  }
+  .model {
+    height: calc(395px - 20%);
+  }
+}
+@media (min-width: 768px) {
+  .header-main {
+    height: 1241.39px;
+  }
+  .scene {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .menu-main {
+    width: 604px;
+    height: 60px;
+  }
+  .menu-main li a {
+    font-size: 16px;
+  }
+  .menu-main li:last-child a {
+    width: 158px;
+    height: 60px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ee4d47;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  .text-main {
+    width: 500px;
+    font-size: 75px;
+  }
+  .get-started {
+    width: 220px;
+    height: 60px;
+    font-weight: bold;
+    padding-left: 25px;
+  }
+  .get-started::before {
+    width: 29.5px;
+    height: 12.35px;
+    right: 25px;
+  }
+  .model {
+    height: 395px;
+    width: 475px;
+  }
+}
+
+@media (min-width: 1024px) {
+}
+
+/* ====================== BREAKPOINT AT 1200px */
+@media (min-width: 1200px) {
+}
+.model-animation {
+  transform: translateX(0px);
+}
