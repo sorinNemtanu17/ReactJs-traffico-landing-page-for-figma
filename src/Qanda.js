@@ -3,32 +3,37 @@ import Faqs from './Faqs';
 import styles from './Fqas.module.css';
 
 export default function Qanda() {
-  const [question, setQuestion] = useState(null);
-  const [answer, setAnswer] = useState(null);
-  useEffect(() => {
-    fetch('https://lxpi9qne2a.api.quickmocker.com/getReactFAQs')
-      .then((res) => res.json())
-      .then(({ response }) => {
-        //console.log({ response });
-        response.forEach(({ title, Message }) => {
-          setQuestion(title);
-          setAnswer(Message);
-        });
-      });
-  }, []);
-  console.log(question);
-  console.log(answer);
-  return <div></div>;
-  // (
-  //   <div className={styles['column-1']}>
-  //     {response.map(({ title, Message }) => (
-  //       <Faqs title={(title, Message)} />
-  //     ))}
-  //   </div>
-  // );
-}
+  // const [question, setQuestion] = useState(null);
+  // const [answer, setAnswer] = useState(null);
+  // const [value, setValue] = useState([]);
+  // useEffect(() => {
+  //   fetch('https://lxpi9qne2a.api.quickmocker.com/getReactFAQs')
+  //     .then((res) => res.json())
+  //     .then(({ response }) => {
+  //       setValue(response);
+  //       console.log(value);
 
-// /* <p className={styles['q']}>What is a professional traffic permit?</p>
-// <p className={styles['a']}>
-//     Traffic permits are a requirement for conducting professional traffic.
-//   </p> */
+  // value.map(({ title, Message }) => {
+  //   console.log(title, Message);
+  //   setQuestion(title);
+  //   setAnswer(Message);
+  // });
+  //     });
+  // }, []);
+  //console.log(response);
+  // console.log(question);
+  // console.log(answer);
+  return (
+    <article className={styles['column-1']}>
+      <p className={styles['q']}>What is a professional traffic permit?</p>
+      <p className={styles['a']}>
+        Traffic permits are a requirement for conducting professional traffic.
+      </p>
+    </article>
+  );
+}
+{
+  /* {value.map(({ title, Message }) => (
+        <Faqs data={(title, Message)} />
+      ))} */
+}

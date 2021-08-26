@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import styles from './Top.module.css';
 
 export default function Nav() {
-  function toLink() {}
   return (
     <nav className={styles['nav-main']}>
       <div className={styles['logo']}></div>

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './About';
 import HowTo from './HowTo';
 import Faqs from './Faqs';
+import Typicode from './Typicode';
 
 function App() {
   return (
