@@ -9,7 +9,7 @@ export default function Nav() {
       <div className={styles['logo']}></div>
       <ul className={styles['menu-main']}>
         <li>
-          <a href="#">about</a>
+          <a href="#about">about</a>
         </li>
         <li>
           <a href="#how to">how to</a>

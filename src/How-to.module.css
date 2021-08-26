@@ -1,0 +1,45 @@
+@media (max-width: 1600px) {
+  .how-to {
+    max-width: 1232.61px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+  .how-to-illustration {
+    background: url(./images/how-to-illustrations.svg) no-repeat;
+    width: 720.52px;
+    height: 679.88px;
+    transform: translateX(-600px);
+    transition: all 0.5s 0.5s;
+  }
+  .how-to-description {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .how-to-description h2 {
+    width: 265px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ee4d47;
+  }
+  .how-to-description .first-paragraph {
+    width: 455px;
+    height: 287px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    color: #402b2b;
+  }
+}
+.how-to-illustration-animation {
+  transform: translateX(0px);
+}
