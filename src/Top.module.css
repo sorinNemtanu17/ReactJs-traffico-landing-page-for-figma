@@ -225,7 +225,7 @@
     max-width: 1896px;
     height: 1241.39px;
     display: grid;
-    grid-template-columns: minmax(0px, 240px) auto;
+    grid-template-columns: minmax(0px, 240px) 1fr;
     grid-template-rows: repeat(5, max-content);
     row-gap: 100px;
   }
@@ -252,8 +252,9 @@
   .menu-main {
     width: 604px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
   }
   .menu-main li a {
     height: 19px;
