@@ -6,6 +6,7 @@ import About from './About';
 import HowTo from './HowTo';
 import Faqs from './Faqs';
 import Typicode from './Typicode';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <HowTo />
       <Faqs />
+      <Footer />
     </>
   );
 }

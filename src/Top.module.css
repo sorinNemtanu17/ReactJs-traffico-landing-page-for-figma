@@ -230,18 +230,19 @@
     row-gap: 100px;
   }
   .scene {
-    background: url(./images/Scene.svg) center / cover no-repeat;
+    background: url(./images/Scene.svg) no-repeat;
     max-width: 1734px;
     height: 1005.12px;
-    grid-column: 1 / -1;
-    grid-row: 1 /-1;
+    grid-column: 1 / end;
+    grid-row: 1 / end;
     z-index: -1;
   }
   .nav-main {
     margin-top: 40px;
     display: flex;
+    justify-content: space-between;
     height: 60px;
-    grid-column: 2 / -1;
+    grid-column: 2 / end;
     grid-row: 1;
   }
   .logo {
@@ -251,9 +252,8 @@
   .menu-main {
     width: 604px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
   }
   .menu-main li a {
     height: 19px;

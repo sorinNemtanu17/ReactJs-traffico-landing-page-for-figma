@@ -11,5 +11,5 @@
 }
 body {
   max-width: 1600px;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
