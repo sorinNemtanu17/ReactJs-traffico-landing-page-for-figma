@@ -8,7 +8,7 @@
     margin: 0 auto;
   }
   .about-us-description {
-    width: 570px;
+    max-width: 570px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,7 +25,6 @@
     align-items: center;
     letter-spacing: 0.1em;
     color: #ee4d47;
-
     text-transform: uppercase;
   }
   .about-us-description .first-paragraph {
@@ -50,8 +49,6 @@
   .about-us-description .second-paragraph {
     width: 460px;
     height: 100px;
-    font-family: Rubik;
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
@@ -59,13 +56,15 @@
   }
 
   .about-us-illustration {
-    background: url(./images/about-Illustration.svg) no-repeat;
+    background: url(./images/about-Illustration.svg) no-repeat center / contain;
     width: 575.12px;
     height: 480px;
-    transform: translateX(600px);
+    transform: translateX(300px);
+    opacity: 0;
     transition: all 0.5s 0.5s;
   }
 }
 .about-illustration-animation {
   transform: translateX(0px);
+  opacity: 1;
 }

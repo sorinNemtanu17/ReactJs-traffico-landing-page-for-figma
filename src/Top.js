@@ -13,11 +13,14 @@ function Top() {
       <h1 className={styles['text-main']}>
         Your awesome traffic permit consultant.
       </h1>
-      <button className={styles['get-started']}>get started</button>
+      <a href="#contact-us" className={styles['get-started']}>
+        get started
+      </a>
       <div
-        className={`${styles['model']} ${
-          styles[visible ? 'model-animation' : '']
-        }`}
+        className={`
+        ${styles['model']} 
+        ${styles[visible ? 'model-animation' : '']}
+        `}
         ref={setRef}
       ></div>
     </header>

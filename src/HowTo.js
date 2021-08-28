@@ -7,9 +7,10 @@ export default function HowTo() {
   return (
     <section id="how-to" className={styles['how-to']}>
       <div
-        className={`${styles['how-to-illustration']} ${
-          styles[visible ? 'how-to-illustration-animation' : '']
-        }`}
+        className={`
+        ${styles['how-to-illustration']} 
+        ${styles[visible ? 'how-to-illustration-animation' : '']}
+        `}
         ref={setRef}
       ></div>
       <div className={styles['how-to-description']}>

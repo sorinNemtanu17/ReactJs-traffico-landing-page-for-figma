@@ -1,0 +1,32 @@
+.work-in-progres {
+  position: fixed;
+  z-index: 100;
+  padding: 20px 0px;
+  text-align: center;
+  background: #ee4c47de;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message-container p {
+  display: inline-block;
+  margin-right: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+}
+.message-container button {
+  background: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  border: 0;
+}

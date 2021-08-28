@@ -1,12 +1,9 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import styles from './Fqas.module.css';
 
 export function FaqsColumn1(props) {
-  const ref = useRef();
-  const [bg, setBg] = useState(false);
   const [visible, setVisible] = useState(false);
-  const { title, body, id, data } = props;
-  console.log(data);
+  const { title, body, id } = props;
 
   function handleClick() {
     setVisible(!visible);
@@ -14,7 +11,6 @@ export function FaqsColumn1(props) {
   if (title && body) {
     return (
       <article
-        //id > 7 ? 'column-1-hide' :
         className={`
         ${styles['column-1']}
         ${styles[visible || id === 1 ? 'expend-a' : null]} 
@@ -35,7 +31,6 @@ export function FaqsColumn1(props) {
           ${styles['a']} 
           ${styles[visible || id === 1 ? 'visible' : null]} 
           `}
-          //${styles[id === 1 ? 'a' : null]}
         >
           {body}
         </p>
@@ -45,15 +40,9 @@ export function FaqsColumn1(props) {
   return null;
 }
 export function FaqsColumn2(data) {
-  const ref = useRef();
-  const [bg, setBg] = useState(false);
   const [visible, setVisible] = useState(false);
-  const { title, body, id } = data;
-  //console.log(id);
+  const { title, body } = data;
 
-  // data.map((element, i) => {
-  //   console.log(i);
-  // });
   function handleClick() {
     setVisible(!visible);
   }
@@ -61,7 +50,6 @@ export function FaqsColumn2(data) {
     return (
       <>
         <article
-          //id > 13 ? 'column-1-hide' :
           className={`
         ${styles['column-1']} 
         ${styles[visible ? 'expend-a' : null]} 
@@ -78,7 +66,6 @@ export function FaqsColumn2(data) {
             ></button>
           </div>
           <p
-            className={styles['a']}
             className={`
           ${styles['a']} 
           ${styles[visible ? 'visible' : null]} 

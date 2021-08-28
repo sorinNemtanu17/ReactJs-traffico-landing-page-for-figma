@@ -21,9 +21,10 @@ export default function About() {
         </div>
       </div>
       <div
-        className={`${styles['about-us-illustration']} ${
-          styles[visible ? 'about-illustration-animation' : '']
-        }`}
+        className={`
+        ${styles['about-us-illustration']} 
+        ${styles[visible ? 'about-illustration-animation' : '']}
+        `}
         ref={setRef}
       ></div>
     </section>

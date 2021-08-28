@@ -1,17 +1,17 @@
 @media (max-width: 1600px) {
   .how-to {
     max-width: 1232.61px;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap-reverse;
   }
   .how-to-illustration {
-    background: url(./images/how-to-illustrations.svg) no-repeat;
+    background: url(./images/how-to-illustrations.svg) no-repeat top / contain;
     width: 720.52px;
     height: 679.88px;
-    transform: translateX(-600px);
+    transform: translateX(-300px);
+    opacity: 0;
     transition: all 0.5s 0.5s;
   }
   .how-to-description {
@@ -42,4 +42,5 @@
 }
 .how-to-illustration-animation {
   transform: translateX(0px);
+  opacity: 1;
 }
