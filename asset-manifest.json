@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ReactJs-traffico-landing-page-for-figma/static/css/main.67cc043e.chunk.css",
-    "main.js": "/ReactJs-traffico-landing-page-for-figma/static/js/main.94aec9db.chunk.js",
-    "main.js.map": "/ReactJs-traffico-landing-page-for-figma/static/js/main.94aec9db.chunk.js.map",
+    "main.css": "/ReactJs-traffico-landing-page-for-figma/static/css/main.ee56ec25.chunk.css",
+    "main.js": "/ReactJs-traffico-landing-page-for-figma/static/js/main.863b2326.chunk.js",
+    "main.js.map": "/ReactJs-traffico-landing-page-for-figma/static/js/main.863b2326.chunk.js.map",
     "runtime-main.js": "/ReactJs-traffico-landing-page-for-figma/static/js/runtime-main.d80eedac.js",
     "runtime-main.js.map": "/ReactJs-traffico-landing-page-for-figma/static/js/runtime-main.d80eedac.js.map",
-    "static/js/2.d92add17.chunk.js": "/ReactJs-traffico-landing-page-for-figma/static/js/2.d92add17.chunk.js",
-    "static/js/2.d92add17.chunk.js.map": "/ReactJs-traffico-landing-page-for-figma/static/js/2.d92add17.chunk.js.map",
+    "static/js/2.f86aaccb.chunk.js": "/ReactJs-traffico-landing-page-for-figma/static/js/2.f86aaccb.chunk.js",
+    "static/js/2.f86aaccb.chunk.js.map": "/ReactJs-traffico-landing-page-for-figma/static/js/2.f86aaccb.chunk.js.map",
     "index.html": "/ReactJs-traffico-landing-page-for-figma/index.html",
-    "static/css/main.67cc043e.chunk.css.map": "/ReactJs-traffico-landing-page-for-figma/static/css/main.67cc043e.chunk.css.map",
-    "static/js/2.d92add17.chunk.js.LICENSE.txt": "/ReactJs-traffico-landing-page-for-figma/static/js/2.d92add17.chunk.js.LICENSE.txt",
+    "static/css/main.ee56ec25.chunk.css.map": "/ReactJs-traffico-landing-page-for-figma/static/css/main.ee56ec25.chunk.css.map",
+    "static/js/2.f86aaccb.chunk.js.LICENSE.txt": "/ReactJs-traffico-landing-page-for-figma/static/js/2.f86aaccb.chunk.js.LICENSE.txt",
     "static/media/Fqas.module.css": "/ReactJs-traffico-landing-page-for-figma/static/media/vertical-bar.bb83438b.svg",
     "static/media/Footer.module.css": "/ReactJs-traffico-landing-page-for-figma/static/media/trekmobil.a22c1e43.svg",
     "static/media/Top.module.css": "/ReactJs-traffico-landing-page-for-figma/static/media/mobel.342dce54.svg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d80eedac.js",
-    "static/js/2.d92add17.chunk.js",
-    "static/css/main.67cc043e.chunk.css",
-    "static/js/main.94aec9db.chunk.js"
+    "static/js/2.f86aaccb.chunk.js",
+    "static/css/main.ee56ec25.chunk.css",
+    "static/js/main.863b2326.chunk.js"
   ]
 }
