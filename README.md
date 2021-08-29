@@ -1,7 +1,5 @@
 Link to page : https://sorinnemtanu17.github.io/ReactJs-traffico-landing-page-for-figma/
 
-repo :  sorinNemtanu17/ReactJs-traffico-landing-page-for-figma 
-
 email address : sorin_sos@yahoo.com
 
 
